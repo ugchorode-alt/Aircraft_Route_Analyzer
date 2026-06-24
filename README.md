@@ -17,9 +17,6 @@ It implements:
 - GIS exports in GeoJSON and Shapefile formats
 - 9-test validation and benchmarking module
 
-## 🗺️ Live Demo
-[Click here to open the map](#) ← paste your Netlify link here
-
 ## 🛠️ Tech Stack
 | Tool | Purpose |
 |------|---------|
