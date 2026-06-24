@@ -4,7 +4,7 @@
 A Python-based geospatial analysis system for Indian domestic aviation,
 built during an internship at Rotten Grapes Private Limited.
 
-## 📌 Project Overview
+# 📌 Project Overview
 This project models Indian domestic aviation as a weighted graph network
 spanning 15 major airports and 36 routes across 4 airlines — IndiGo,
 Air India, Akasa Air, and SpiceJet.
@@ -17,7 +17,7 @@ It implements:
 - GIS exports in GeoJSON and Shapefile formats
 - 9-test validation and benchmarking module
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 | Tool | Purpose |
 |------|---------|
 | Python 3.11 | Core language |
@@ -27,7 +27,7 @@ It implements:
 | GeoPandas | Shapefile / GeoJSON export |
 | Shapely | Geometry objects |
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 AircraftRouteAnalyzer/
 │
