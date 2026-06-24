@@ -28,3 +28,41 @@ It implements:
 | Shapely | Geometry objects |
 
 ## 📁 Project Structure
+
+AircraftRouteAnalyzer/
+│
+├── data/
+│   ├── airports.csv
+│   ├── airline_routes.csv
+│   └── flight_frequencies.csv
+│
+├── output/
+│   ├── interactive_route_map.html        ← main deliverable
+│   ├── distance_matrix.csv
+│   ├── shortest_paths.csv
+│   ├── fuel_model.csv
+│   ├── airports_points.geojson
+│   ├── routes_lines.geojson
+│   ├── test_distance_validation.csv
+│   ├── test_benchmark.csv
+│   ├── test_hub_analysis.csv
+│   │
+│   └── shapefiles/
+│       ├── airports.shp
+│       ├── airports.dbf
+│       ├── airports.prj
+│       ├── airports.shx
+│       ├── airports.cpg
+│       ├── routes.shp
+│       ├── routes.dbf
+│       ├── routes.prj
+│       ├── routes.shx
+│       └── routes.cpg
+│
+├── distance_matrix.py
+├── fuel_model.py
+├── shapefile_export.py
+├── interactive_map_v5.py
+├── testing.py
+│
+└── Aircraft_Route_Analyzer_Student_Report.docx
