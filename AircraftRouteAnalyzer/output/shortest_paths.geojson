@@ -1,0 +1,127 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1,
+            28.5562
+          ],
+          [
+            76.3919,
+            10.152
+          ]
+        ]
+      },
+      "properties": {
+        "path": "DEL \u2192 COK",
+        "distance_km": 2047.79,
+        "algorithm": "Dijkstra",
+        "stops": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1,
+            28.5562
+          ],
+          [
+            85.8165,
+            20.2548
+          ]
+        ]
+      },
+      "properties": {
+        "path": "DEL \u2192 BBI",
+        "distance_km": 1276.18,
+        "algorithm": "Dijkstra",
+        "stops": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.7885,
+            30.6735
+          ],
+          [
+            77.1,
+            28.5562
+          ],
+          [
+            80.1693,
+            12.99
+          ]
+        ]
+      },
+      "properties": {
+        "path": "IXC \u2192 DEL \u2192 MAA",
+        "distance_km": 1997.15,
+        "algorithm": "Dijkstra",
+        "stops": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8122,
+            26.8242
+          ],
+          [
+            77.1,
+            28.5562
+          ],
+          [
+            88.4467,
+            22.6547
+          ]
+        ]
+      },
+      "properties": {
+        "path": "JAI \u2192 DEL \u2192 CCU",
+        "distance_km": 1543.0,
+        "algorithm": "Dijkstra",
+        "stops": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.8314,
+            15.3808
+          ],
+          [
+            77.7101,
+            13.1994
+          ],
+          [
+            85.8165,
+            20.2548
+          ]
+        ]
+      },
+      "properties": {
+        "path": "GOI \u2192 BLR \u2192 BBI",
+        "distance_km": 1649.12,
+        "algorithm": "Dijkstra",
+        "stops": 1
+      }
+    }
+  ]
+}

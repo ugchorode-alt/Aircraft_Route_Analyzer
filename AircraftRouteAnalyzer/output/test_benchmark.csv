@@ -1,0 +1,6 @@
+route,dijkstra_s,astar_s,faster
+DEL-COK,0.01995,0.02101,Dijkstra
+IXC-MAA,0.01899,0.02287,Dijkstra
+GOI-CCU,0.02098,0.01593,A*
+AMD-BBI,0.02032,0.02654,Dijkstra
+JAI-COK,0.02207,0.02141,A*

@@ -1,0 +1,1868 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_419f9d89c31234d2b664cc4209dc09fc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_419f9d89c31234d2b664cc4209dc09fc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_419f9d89c31234d2b664cc4209dc09fc = L.map(
+                "map_419f9d89c31234d2b664cc4209dc09fc",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bb567900036b2eb5300ee287d6f9a536 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_bb567900036b2eb5300ee287d6f9a536.addTo(map_419f9d89c31234d2b664cc4209dc09fc);
+        
+    
+            var feature_group_668e836900383a0a3f9026dd142212f9 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_55c429d2715837536e8a0c30bf3d1c17 = L.polyline(
+                [[28.5562, 77.1], [19.0887, 72.8679]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_55c429d2715837536e8a0c30bf3d1c17.bindTooltip(
+                `<div>
+                     DEL ↔ BOM | 438 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_dc4d4722dce4438c08b0d8de4608a57a = L.polyline(
+                [[28.5562, 77.1], [13.1994, 77.7101]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_dc4d4722dce4438c08b0d8de4608a57a.bindTooltip(
+                `<div>
+                     DEL ↔ BLR | 313 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_41e0ca3adddca496433a0bb19ccb6939 = L.polyline(
+                [[28.5562, 77.1], [17.23, 78.4319]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_41e0ca3adddca496433a0bb19ccb6939.bindTooltip(
+                `<div>
+                     DEL ↔ HYD | 199 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_9ea8cf721ea0fe9194ecc17ac453b8c6 = L.polyline(
+                [[28.5562, 77.1], [22.6547, 88.4467]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_9ea8cf721ea0fe9194ecc17ac453b8c6.bindTooltip(
+                `<div>
+                     DEL ↔ CCU | 182 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ef0c5e744273e91b0e38d77fbc7cb7c5 = L.polyline(
+                [[28.5562, 77.1], [18.5822, 73.9197]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_ef0c5e744273e91b0e38d77fbc7cb7c5.bindTooltip(
+                `<div>
+                     DEL ↔ PNQ | 169 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_0c87f0f44cfed89bb8b09a5412771083 = L.polyline(
+                [[28.5562, 77.1], [23.0772, 72.6347]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_0c87f0f44cfed89bb8b09a5412771083.bindTooltip(
+                `<div>
+                     DEL ↔ AMD | 144 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ce86a43ffd67af6342a581e1cccde624 = L.polyline(
+                [[28.5562, 77.1], [12.99, 80.1693]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_ce86a43ffd67af6342a581e1cccde624.bindTooltip(
+                `<div>
+                     DEL ↔ MAA | 128 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_5cb3ae273184e37816310e83bb403987 = L.polyline(
+                [[28.5562, 77.1], [26.7606, 80.8893]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_5cb3ae273184e37816310e83bb403987.bindTooltip(
+                `<div>
+                     DEL ↔ LKO | 107 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_c812ce829a1c1713272643144b693a12 = L.polyline(
+                [[28.5562, 77.1], [15.3808, 73.8314]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_c812ce829a1c1713272643144b693a12.bindTooltip(
+                `<div>
+                     DEL ↔ GOI | 70 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_29b5125324dce71c26eb15db1ee11426 = L.polyline(
+                [[28.5562, 77.1], [10.152, 76.3919]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_29b5125324dce71c26eb15db1ee11426.bindTooltip(
+                `<div>
+                     DEL ↔ COK | 65 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2e60e1ad78926682035c0bf8f1ffef3d = L.polyline(
+                [[28.5562, 77.1], [20.2548, 85.8165]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_2e60e1ad78926682035c0bf8f1ffef3d.bindTooltip(
+                `<div>
+                     DEL ↔ BBI | 42 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3378637737e467b84df01b5b450fc8d1 = L.polyline(
+                [[28.5562, 77.1], [30.6735, 76.7885]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_3378637737e467b84df01b5b450fc8d1.bindTooltip(
+                `<div>
+                     DEL ↔ IXC | 35 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_106e8704f0f874ea9bcbef43d8c89223 = L.polyline(
+                [[28.5562, 77.1], [26.8242, 75.8122]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_106e8704f0f874ea9bcbef43d8c89223.bindTooltip(
+                `<div>
+                     DEL ↔ JAI | 56 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_052c9f5db32f3977cc494f0d1b416a24 = L.polyline(
+                [[28.5562, 77.1], [22.7218, 75.8011]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_052c9f5db32f3977cc494f0d1b416a24.bindTooltip(
+                `<div>
+                     DEL ↔ IDR | 49 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_8fd440541e1b4b06f17da020d90fed75 = L.polyline(
+                [[19.0887, 72.8679], [13.1994, 77.7101]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_8fd440541e1b4b06f17da020d90fed75.bindTooltip(
+                `<div>
+                     BOM ↔ BLR | 196 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_93bb8d8c631837cee576b3a732a3e666 = L.polyline(
+                [[19.0887, 72.8679], [12.99, 80.1693]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_93bb8d8c631837cee576b3a732a3e666.bindTooltip(
+                `<div>
+                     BOM ↔ MAA | 111 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_003c42517e27330e0d8b087a9a41c1d9 = L.polyline(
+                [[19.0887, 72.8679], [23.0772, 72.6347]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_003c42517e27330e0d8b087a9a41c1d9.bindTooltip(
+                `<div>
+                     BOM ↔ AMD | 106 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_dda24edb349550fb6eb82675f63f54fc = L.polyline(
+                [[19.0887, 72.8679], [17.23, 78.4319]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_dda24edb349550fb6eb82675f63f54fc.bindTooltip(
+                `<div>
+                     BOM ↔ HYD | 102 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_81e650ca8574d18dc283bfcf1de045a7 = L.polyline(
+                [[19.0887, 72.8679], [22.6547, 88.4467]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_81e650ca8574d18dc283bfcf1de045a7.bindTooltip(
+                `<div>
+                     BOM ↔ CCU | 93 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_65f015708dc29e92c5c8a7d4bb237468 = L.polyline(
+                [[19.0887, 72.8679], [15.3808, 73.8314]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_65f015708dc29e92c5c8a7d4bb237468.bindTooltip(
+                `<div>
+                     BOM ↔ GOI | 69 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f47c3aaf220174547a139750f380fe7d = L.polyline(
+                [[19.0887, 72.8679], [26.7606, 80.8893]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_f47c3aaf220174547a139750f380fe7d.bindTooltip(
+                `<div>
+                     BOM ↔ LKO | 51 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2939ce8f384e863f8e6bad706445d278 = L.polyline(
+                [[19.0887, 72.8679], [18.5822, 73.9197]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_2939ce8f384e863f8e6bad706445d278.bindTooltip(
+                `<div>
+                     BOM ↔ PNQ | 35 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2159f50683abae1cfcfffaf56f000fc7 = L.polyline(
+                [[19.0887, 72.8679], [10.152, 76.3919]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_2159f50683abae1cfcfffaf56f000fc7.bindTooltip(
+                `<div>
+                     BOM ↔ COK | 42 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_83e06cccff936e21885dfecc65e55c53 = L.polyline(
+                [[19.0887, 72.8679], [20.2548, 85.8165]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_83e06cccff936e21885dfecc65e55c53.bindTooltip(
+                `<div>
+                     BOM ↔ BBI | 21 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_61ce9042dfe2ba9ce75e8cdefe68dd0c = L.polyline(
+                [[19.0887, 72.8679], [30.6735, 76.7885]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_61ce9042dfe2ba9ce75e8cdefe68dd0c.bindTooltip(
+                `<div>
+                     BOM ↔ IXC | 21 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_1cd0fc891a2f782fadf938d6142d37ca = L.polyline(
+                [[19.0887, 72.8679], [26.8242, 75.8122]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_1cd0fc891a2f782fadf938d6142d37ca.bindTooltip(
+                `<div>
+                     BOM ↔ JAI | 28 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_27da7ac6dee431919a4da331f2cbc354 = L.polyline(
+                [[19.0887, 72.8679], [22.7218, 75.8011]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_27da7ac6dee431919a4da331f2cbc354.bindTooltip(
+                `<div>
+                     BOM ↔ IDR | 21 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_5e341fd6a1cb2bd1e0f798ac2d60ad9a = L.polyline(
+                [[13.1994, 77.7101], [17.23, 78.4319]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_5e341fd6a1cb2bd1e0f798ac2d60ad9a.bindTooltip(
+                `<div>
+                     BLR ↔ HYD | 77 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_94aaba8133229b793a9a77eee20e8935 = L.polyline(
+                [[13.1994, 77.7101], [12.99, 80.1693]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_94aaba8133229b793a9a77eee20e8935.bindTooltip(
+                `<div>
+                     BLR ↔ MAA | 56 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_e2e92629916c7fa86b53500b50d44ba1 = L.polyline(
+                [[13.1994, 77.7101], [22.6547, 88.4467]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_e2e92629916c7fa86b53500b50d44ba1.bindTooltip(
+                `<div>
+                     BLR ↔ CCU | 49 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_6c9ec73692a72e3ab21ea72219037081 = L.polyline(
+                [[13.1994, 77.7101], [10.152, 76.3919]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_6c9ec73692a72e3ab21ea72219037081.bindTooltip(
+                `<div>
+                     BLR ↔ COK | 42 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_310f81d0e907d034425612bda8c83b94 = L.polyline(
+                [[13.1994, 77.7101], [18.5822, 73.9197]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_310f81d0e907d034425612bda8c83b94.bindTooltip(
+                `<div>
+                     BLR ↔ PNQ | 35 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_eb29f7a5a874cdb01b8367a98355cb3f = L.polyline(
+                [[13.1994, 77.7101], [23.0772, 72.6347]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_eb29f7a5a874cdb01b8367a98355cb3f.bindTooltip(
+                `<div>
+                     BLR ↔ AMD | 28 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_41088a0e482f1535c9fb9115cb7e66b8 = L.polyline(
+                [[13.1994, 77.7101], [15.3808, 73.8314]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_41088a0e482f1535c9fb9115cb7e66b8.bindTooltip(
+                `<div>
+                     BLR ↔ GOI | 28 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_e9ce39e30354a0f786a76629d93b0b1c = L.polyline(
+                [[13.1994, 77.7101], [26.8242, 75.8122]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_e9ce39e30354a0f786a76629d93b0b1c.bindTooltip(
+                `<div>
+                     BLR ↔ JAI | 14 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_7617fd4ae43052e85304a47b130523c1 = L.polyline(
+                [[13.1994, 77.7101], [26.7606, 80.8893]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_7617fd4ae43052e85304a47b130523c1.bindTooltip(
+                `<div>
+                     BLR ↔ LKO | 14 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2aec0e448705d50adf87dc44557cd824 = L.polyline(
+                [[13.1994, 77.7101], [20.2548, 85.8165]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_2aec0e448705d50adf87dc44557cd824.bindTooltip(
+                `<div>
+                     BLR ↔ BBI | 14 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_12712348dcb8bab5e5003a631be2ed8a = L.polyline(
+                [[13.1994, 77.7101], [30.6735, 76.7885]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_12712348dcb8bab5e5003a631be2ed8a.bindTooltip(
+                `<div>
+                     BLR ↔ IXC | 7 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_fb16e995b168e687aa15a5cf69830f6b = L.polyline(
+                [[13.1994, 77.7101], [22.7218, 75.8011]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_fb16e995b168e687aa15a5cf69830f6b.bindTooltip(
+                `<div>
+                     BLR ↔ IDR | 7 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f78a2f1f5141b36de2275269dd27da1a = L.polyline(
+                [[17.23, 78.4319], [12.99, 80.1693]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_f78a2f1f5141b36de2275269dd27da1a.bindTooltip(
+                `<div>
+                     HYD ↔ MAA | 42 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_4946f618deec9bf83d29aa88d6780429 = L.polyline(
+                [[17.23, 78.4319], [22.6547, 88.4467]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_4946f618deec9bf83d29aa88d6780429.bindTooltip(
+                `<div>
+                     HYD ↔ CCU | 28 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a9a0fa18a817f41cacf0e65096044906 = L.polyline(
+                [[17.23, 78.4319], [10.152, 76.3919]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_a9a0fa18a817f41cacf0e65096044906.bindTooltip(
+                `<div>
+                     HYD ↔ COK | 28 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_83a04c09d17e4a701bd741708e30c70f = L.polyline(
+                [[17.23, 78.4319], [18.5822, 73.9197]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_83a04c09d17e4a701bd741708e30c70f.bindTooltip(
+                `<div>
+                     HYD ↔ PNQ | 21 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_fa4de9c0007cb810b5c81a775f8f0683 = L.polyline(
+                [[17.23, 78.4319], [15.3808, 73.8314]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_fa4de9c0007cb810b5c81a775f8f0683.bindTooltip(
+                `<div>
+                     HYD ↔ GOI | 21 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_0636100150413c88bcd0435cc21c96c3 = L.polyline(
+                [[17.23, 78.4319], [23.0772, 72.6347]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_0636100150413c88bcd0435cc21c96c3.bindTooltip(
+                `<div>
+                     HYD ↔ AMD | 21 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_971e3579ee5a37f7edb7d854a6883753 = L.polyline(
+                [[12.99, 80.1693], [22.6547, 88.4467]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_971e3579ee5a37f7edb7d854a6883753.bindTooltip(
+                `<div>
+                     MAA ↔ CCU | 35 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_fce33b30514878f37e69a723cb9ae103 = L.polyline(
+                [[12.99, 80.1693], [10.152, 76.3919]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_fce33b30514878f37e69a723cb9ae103.bindTooltip(
+                `<div>
+                     MAA ↔ COK | 28 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_97c51fc510f3652edc80c24890fc1cb3 = L.polyline(
+                [[12.99, 80.1693], [18.5822, 73.9197]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_97c51fc510f3652edc80c24890fc1cb3.bindTooltip(
+                `<div>
+                     MAA ↔ PNQ | 14 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_8165b1925cdb3851029521a91023f56e = L.polyline(
+                [[22.6547, 88.4467], [20.2548, 85.8165]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_8165b1925cdb3851029521a91023f56e.bindTooltip(
+                `<div>
+                     CCU ↔ BBI | 28 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d957a4ec0bfda1fb0084729ea480dbb0 = L.polyline(
+                [[18.5822, 73.9197], [15.3808, 73.8314]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_d957a4ec0bfda1fb0084729ea480dbb0.bindTooltip(
+                `<div>
+                     PNQ ↔ GOI | 21 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_1f04818ccd81fe775960d4485de12b37 = L.polyline(
+                [[23.0772, 72.6347], [26.8242, 75.8122]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_1f04818ccd81fe775960d4485de12b37.bindTooltip(
+                `<div>
+                     AMD ↔ JAI | 14 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_7dd51a72c43e034e0c0a172421d56caa = L.polyline(
+                [[26.8242, 75.8122], [26.7606, 80.8893]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_7dd51a72c43e034e0c0a172421d56caa.bindTooltip(
+                `<div>
+                     JAI ↔ LKO | 14 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ce3b1444b4aee2bc00ec8d1d9803d9cf = L.polyline(
+                [[30.6735, 76.7885], [26.7606, 80.8893]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_ce3b1444b4aee2bc00ec8d1d9803d9cf.bindTooltip(
+                `<div>
+                     IXC ↔ LKO | 7 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_e7aa784fb43b4b82de368e6d6ec24eb8 = L.polyline(
+                [[22.7218, 75.8011], [23.0772, 72.6347]],
+                {"bubblingMouseEvents": true, "color": "steelblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "steelblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_668e836900383a0a3f9026dd142212f9);
+        
+    
+            poly_line_e7aa784fb43b4b82de368e6d6ec24eb8.bindTooltip(
+                `<div>
+                     IDR ↔ AMD | 14 flights/week
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_668e836900383a0a3f9026dd142212f9.addTo(map_419f9d89c31234d2b664cc4209dc09fc);
+        
+    
+            var feature_group_9f1d7dd249cae60d82da1f34f7bde544 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_66d32107192929b85d0d4bb7fd445497 = L.marker(
+                [28.5562, 77.1],
+                {
+}
+            ).addTo(feature_group_9f1d7dd249cae60d82da1f34f7bde544);
+        
+    
+            var icon_2d26cd133b7db27e8cb1211e69593ba1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d359a2ef27ae5d27abd972ad65709a81 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_95c4f55b5a3be732b7f2c1e3859834e0 = $(`<div id="html_95c4f55b5a3be732b7f2c1e3859834e0" style="width: 100.0%; height: 100.0%;">             <b>Indira Gandhi International Airport</b><br>             IATA: DEL<br>             City: New Delhi<br>             Elevation: 777 ft             </div>`)[0];
+                popup_d359a2ef27ae5d27abd972ad65709a81.setContent(html_95c4f55b5a3be732b7f2c1e3859834e0);
+            
+        
+
+        marker_66d32107192929b85d0d4bb7fd445497.bindPopup(popup_d359a2ef27ae5d27abd972ad65709a81)
+        ;
+
+        
+    
+    
+            marker_66d32107192929b85d0d4bb7fd445497.bindTooltip(
+                `<div>
+                     DEL — New Delhi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_66d32107192929b85d0d4bb7fd445497.setIcon(icon_2d26cd133b7db27e8cb1211e69593ba1);
+            
+    
+            var marker_2be8d32da0ac14b25799688837e6d032 = L.marker(
+                [19.0887, 72.8679],
+                {
+}
+            ).addTo(feature_group_9f1d7dd249cae60d82da1f34f7bde544);
+        
+    
+            var icon_c41b5ad825947e125ca9139ee96a048b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6e4ff46dc133245b0117df7db90e5b24 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_03ab12e84ba708519532f91ffb853e45 = $(`<div id="html_03ab12e84ba708519532f91ffb853e45" style="width: 100.0%; height: 100.0%;">             <b>Chhatrapati Shivaji Maharaj International Airport</b><br>             IATA: BOM<br>             City: Mumbai<br>             Elevation: 39 ft             </div>`)[0];
+                popup_6e4ff46dc133245b0117df7db90e5b24.setContent(html_03ab12e84ba708519532f91ffb853e45);
+            
+        
+
+        marker_2be8d32da0ac14b25799688837e6d032.bindPopup(popup_6e4ff46dc133245b0117df7db90e5b24)
+        ;
+
+        
+    
+    
+            marker_2be8d32da0ac14b25799688837e6d032.bindTooltip(
+                `<div>
+                     BOM — Mumbai
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2be8d32da0ac14b25799688837e6d032.setIcon(icon_c41b5ad825947e125ca9139ee96a048b);
+            
+    
+            var marker_6a57cba2e2a6b6a1c83662697eeefbac = L.marker(
+                [13.1994, 77.7101],
+                {
+}
+            ).addTo(feature_group_9f1d7dd249cae60d82da1f34f7bde544);
+        
+    
+            var icon_b1b9ccb6e39f0cabc3b09811c344fe50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ab1c3e60cd1e1237ec8ee1203f207529 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1f16c4d3fc7c3e2120871fcfc71c2e41 = $(`<div id="html_1f16c4d3fc7c3e2120871fcfc71c2e41" style="width: 100.0%; height: 100.0%;">             <b>Kempegowda International Airport</b><br>             IATA: BLR<br>             City: Bengaluru<br>             Elevation: 3002 ft             </div>`)[0];
+                popup_ab1c3e60cd1e1237ec8ee1203f207529.setContent(html_1f16c4d3fc7c3e2120871fcfc71c2e41);
+            
+        
+
+        marker_6a57cba2e2a6b6a1c83662697eeefbac.bindPopup(popup_ab1c3e60cd1e1237ec8ee1203f207529)
+        ;
+
+        
+    
+    
+            marker_6a57cba2e2a6b6a1c83662697eeefbac.bindTooltip(
+                `<div>
+                     BLR — Bengaluru
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6a57cba2e2a6b6a1c83662697eeefbac.setIcon(icon_b1b9ccb6e39f0cabc3b09811c344fe50);
+            
+    
+            var marker_bce03d54c5bcc1d58d8fff7fe2b403b7 = L.marker(
+                [17.23, 78.4319],
+                {
+}
+            ).addTo(feature_group_9f1d7dd249cae60d82da1f34f7bde544);
+        
+    
+            var icon_d2030250adbef5e7139955b54dd1662f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b301573bd0eb309d28bf38157a582a7b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c9070e7b41aa25db63244f976d6c1c88 = $(`<div id="html_c9070e7b41aa25db63244f976d6c1c88" style="width: 100.0%; height: 100.0%;">             <b>Rajiv Gandhi International Airport</b><br>             IATA: HYD<br>             City: Hyderabad<br>             Elevation: 2024 ft             </div>`)[0];
+                popup_b301573bd0eb309d28bf38157a582a7b.setContent(html_c9070e7b41aa25db63244f976d6c1c88);
+            
+        
+
+        marker_bce03d54c5bcc1d58d8fff7fe2b403b7.bindPopup(popup_b301573bd0eb309d28bf38157a582a7b)
+        ;
+
+        
+    
+    
+            marker_bce03d54c5bcc1d58d8fff7fe2b403b7.bindTooltip(
+                `<div>
+                     HYD — Hyderabad
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bce03d54c5bcc1d58d8fff7fe2b403b7.setIcon(icon_d2030250adbef5e7139955b54dd1662f);
+            
+    
+            var marker_c7919594d6960c8ae4b8b3ba8b8a5976 = L.marker(
+                [12.99, 80.1693],
+                {
+}
+            ).addTo(feature_group_9f1d7dd249cae60d82da1f34f7bde544);
+        
+    
+            var icon_31c85ca739cbfb078a0c466222ddcae4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a59d66b2382a1fe66a03c6402fe180c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_17d032ad54edb2f62b8c31919220e5bf = $(`<div id="html_17d032ad54edb2f62b8c31919220e5bf" style="width: 100.0%; height: 100.0%;">             <b>Chennai International Airport</b><br>             IATA: MAA<br>             City: Chennai<br>             Elevation: 52 ft             </div>`)[0];
+                popup_8a59d66b2382a1fe66a03c6402fe180c.setContent(html_17d032ad54edb2f62b8c31919220e5bf);
+            
+        
+
+        marker_c7919594d6960c8ae4b8b3ba8b8a5976.bindPopup(popup_8a59d66b2382a1fe66a03c6402fe180c)
+        ;
+
+        
+    
+    
+            marker_c7919594d6960c8ae4b8b3ba8b8a5976.bindTooltip(
+                `<div>
+                     MAA — Chennai
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c7919594d6960c8ae4b8b3ba8b8a5976.setIcon(icon_31c85ca739cbfb078a0c466222ddcae4);
+            
+    
+            var marker_a091d3f1bc09879d859143dfa05f93b0 = L.marker(
+                [22.6547, 88.4467],
+                {
+}
+            ).addTo(feature_group_9f1d7dd249cae60d82da1f34f7bde544);
+        
+    
+            var icon_907697d2f71163cc634e4e27b4395a14 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_59a04a7da42a80761707f574ecd6e8c2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cd597b85d73167f171269e6661391581 = $(`<div id="html_cd597b85d73167f171269e6661391581" style="width: 100.0%; height: 100.0%;">             <b>Netaji Subhas Chandra Bose International Airport</b><br>             IATA: CCU<br>             City: Kolkata<br>             Elevation: 16 ft             </div>`)[0];
+                popup_59a04a7da42a80761707f574ecd6e8c2.setContent(html_cd597b85d73167f171269e6661391581);
+            
+        
+
+        marker_a091d3f1bc09879d859143dfa05f93b0.bindPopup(popup_59a04a7da42a80761707f574ecd6e8c2)
+        ;
+
+        
+    
+    
+            marker_a091d3f1bc09879d859143dfa05f93b0.bindTooltip(
+                `<div>
+                     CCU — Kolkata
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a091d3f1bc09879d859143dfa05f93b0.setIcon(icon_907697d2f71163cc634e4e27b4395a14);
+            
+    
+            var marker_4dd3d39a98d50ab41b3ad6c534414a9d = L.marker(
+                [18.5822, 73.9197],
+                {
+}
+            ).addTo(feature_group_9f1d7dd249cae60d82da1f34f7bde544);
+        
+    
+            var icon_90a03803ac3e5f95f20d8417652f3b22 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cc9ec7e1b1e71b06bfd5eef8181e2726 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8966bcb222de43ee9b8461266908c979 = $(`<div id="html_8966bcb222de43ee9b8461266908c979" style="width: 100.0%; height: 100.0%;">             <b>Pune International Airport</b><br>             IATA: PNQ<br>             City: Pune<br>             Elevation: 1942 ft             </div>`)[0];
+                popup_cc9ec7e1b1e71b06bfd5eef8181e2726.setContent(html_8966bcb222de43ee9b8461266908c979);
+            
+        
+
+        marker_4dd3d39a98d50ab41b3ad6c534414a9d.bindPopup(popup_cc9ec7e1b1e71b06bfd5eef8181e2726)
+        ;
+
+        
+    
+    
+            marker_4dd3d39a98d50ab41b3ad6c534414a9d.bindTooltip(
+                `<div>
+                     PNQ — Pune
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4dd3d39a98d50ab41b3ad6c534414a9d.setIcon(icon_90a03803ac3e5f95f20d8417652f3b22);
+            
+    
+            var marker_652a3219bdeac8ab9bd00cbd97008823 = L.marker(
+                [23.0772, 72.6347],
+                {
+}
+            ).addTo(feature_group_9f1d7dd249cae60d82da1f34f7bde544);
+        
+    
+            var icon_ccf92d4014ba3bdd00291edffde3782b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b7ded0063c61c6fb86878ab987b4ab69 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_487ca76f8e6d5fd3425b09d865119639 = $(`<div id="html_487ca76f8e6d5fd3425b09d865119639" style="width: 100.0%; height: 100.0%;">             <b>Sardar Vallabhbhai Patel International Airport</b><br>             IATA: AMD<br>             City: Ahmedabad<br>             Elevation: 189 ft             </div>`)[0];
+                popup_b7ded0063c61c6fb86878ab987b4ab69.setContent(html_487ca76f8e6d5fd3425b09d865119639);
+            
+        
+
+        marker_652a3219bdeac8ab9bd00cbd97008823.bindPopup(popup_b7ded0063c61c6fb86878ab987b4ab69)
+        ;
+
+        
+    
+    
+            marker_652a3219bdeac8ab9bd00cbd97008823.bindTooltip(
+                `<div>
+                     AMD — Ahmedabad
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_652a3219bdeac8ab9bd00cbd97008823.setIcon(icon_ccf92d4014ba3bdd00291edffde3782b);
+            
+    
+            var marker_4dd49d47529fdf4bc6e50d8fdf8a8711 = L.marker(
+                [26.8242, 75.8122],
+                {
+}
+            ).addTo(feature_group_9f1d7dd249cae60d82da1f34f7bde544);
+        
+    
+            var icon_172d1fbbbe96db6d1af045b9bbc9ca6e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6c0c988e83123f9ae97928795230698 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6f10feaccbe93bc76e32402633b17e1f = $(`<div id="html_6f10feaccbe93bc76e32402633b17e1f" style="width: 100.0%; height: 100.0%;">             <b>Jaipur International Airport</b><br>             IATA: JAI<br>             City: Jaipur<br>             Elevation: 1263 ft             </div>`)[0];
+                popup_f6c0c988e83123f9ae97928795230698.setContent(html_6f10feaccbe93bc76e32402633b17e1f);
+            
+        
+
+        marker_4dd49d47529fdf4bc6e50d8fdf8a8711.bindPopup(popup_f6c0c988e83123f9ae97928795230698)
+        ;
+
+        
+    
+    
+            marker_4dd49d47529fdf4bc6e50d8fdf8a8711.bindTooltip(
+                `<div>
+                     JAI — Jaipur
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4dd49d47529fdf4bc6e50d8fdf8a8711.setIcon(icon_172d1fbbbe96db6d1af045b9bbc9ca6e);
+            
+    
+            var marker_106b17f709458f35fdcc65f68f466308 = L.marker(
+                [26.7606, 80.8893],
+                {
+}
+            ).addTo(feature_group_9f1d7dd249cae60d82da1f34f7bde544);
+        
+    
+            var icon_9dc0f5cb4c52f22d275fb10bf4c0728b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e0f801bfa3047d834828b37129965eb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_45728175414391480758fe57ef1ff581 = $(`<div id="html_45728175414391480758fe57ef1ff581" style="width: 100.0%; height: 100.0%;">             <b>Chaudhary Charan Singh International Airport</b><br>             IATA: LKO<br>             City: Lucknow<br>             Elevation: 410 ft             </div>`)[0];
+                popup_8e0f801bfa3047d834828b37129965eb.setContent(html_45728175414391480758fe57ef1ff581);
+            
+        
+
+        marker_106b17f709458f35fdcc65f68f466308.bindPopup(popup_8e0f801bfa3047d834828b37129965eb)
+        ;
+
+        
+    
+    
+            marker_106b17f709458f35fdcc65f68f466308.bindTooltip(
+                `<div>
+                     LKO — Lucknow
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_106b17f709458f35fdcc65f68f466308.setIcon(icon_9dc0f5cb4c52f22d275fb10bf4c0728b);
+            
+    
+            var marker_70806125cdb8b0a39b78df8150d69082 = L.marker(
+                [15.3808, 73.8314],
+                {
+}
+            ).addTo(feature_group_9f1d7dd249cae60d82da1f34f7bde544);
+        
+    
+            var icon_b680872e88dce4e447300edaa4243658 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_82c4ed1f9b305629a3cfc23000e475b7 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d5b7d19ae2614bf10e9a8e931fb8507c = $(`<div id="html_d5b7d19ae2614bf10e9a8e931fb8507c" style="width: 100.0%; height: 100.0%;">             <b>Dabolim Airport (Goa International Airport)</b><br>             IATA: GOI<br>             City: Goa<br>             Elevation: 150 ft             </div>`)[0];
+                popup_82c4ed1f9b305629a3cfc23000e475b7.setContent(html_d5b7d19ae2614bf10e9a8e931fb8507c);
+            
+        
+
+        marker_70806125cdb8b0a39b78df8150d69082.bindPopup(popup_82c4ed1f9b305629a3cfc23000e475b7)
+        ;
+
+        
+    
+    
+            marker_70806125cdb8b0a39b78df8150d69082.bindTooltip(
+                `<div>
+                     GOI — Goa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_70806125cdb8b0a39b78df8150d69082.setIcon(icon_b680872e88dce4e447300edaa4243658);
+            
+    
+            var marker_28e9391caae5994c1a511ebd527085f9 = L.marker(
+                [10.152, 76.3919],
+                {
+}
+            ).addTo(feature_group_9f1d7dd249cae60d82da1f34f7bde544);
+        
+    
+            var icon_31ea6f86ee5fd23981185f73ac81adc2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fe432321bd8d56b2cbe385f54efed4b4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d61b3078c242638f46879dddec63825a = $(`<div id="html_d61b3078c242638f46879dddec63825a" style="width: 100.0%; height: 100.0%;">             <b>Cochin International Airport</b><br>             IATA: COK<br>             City: Kochi<br>             Elevation: 26 ft             </div>`)[0];
+                popup_fe432321bd8d56b2cbe385f54efed4b4.setContent(html_d61b3078c242638f46879dddec63825a);
+            
+        
+
+        marker_28e9391caae5994c1a511ebd527085f9.bindPopup(popup_fe432321bd8d56b2cbe385f54efed4b4)
+        ;
+
+        
+    
+    
+            marker_28e9391caae5994c1a511ebd527085f9.bindTooltip(
+                `<div>
+                     COK — Kochi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_28e9391caae5994c1a511ebd527085f9.setIcon(icon_31ea6f86ee5fd23981185f73ac81adc2);
+            
+    
+            var marker_f0fb4116cbde60d34c3830f237d966a2 = L.marker(
+                [20.2548, 85.8165],
+                {
+}
+            ).addTo(feature_group_9f1d7dd249cae60d82da1f34f7bde544);
+        
+    
+            var icon_97c1a44f479a474b5f12eaaf801ce6e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6b647f3409bd478d7549142da933cdc5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_62597a5b310f25c8e6a3235123191033 = $(`<div id="html_62597a5b310f25c8e6a3235123191033" style="width: 100.0%; height: 100.0%;">             <b>Biju Patnaik International Airport</b><br>             IATA: BBI<br>             City: Bhubaneswar<br>             Elevation: 16 ft             </div>`)[0];
+                popup_6b647f3409bd478d7549142da933cdc5.setContent(html_62597a5b310f25c8e6a3235123191033);
+            
+        
+
+        marker_f0fb4116cbde60d34c3830f237d966a2.bindPopup(popup_6b647f3409bd478d7549142da933cdc5)
+        ;
+
+        
+    
+    
+            marker_f0fb4116cbde60d34c3830f237d966a2.bindTooltip(
+                `<div>
+                     BBI — Bhubaneswar
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f0fb4116cbde60d34c3830f237d966a2.setIcon(icon_97c1a44f479a474b5f12eaaf801ce6e6);
+            
+    
+            var marker_8006d7549988ec6a3a29e729911ee01e = L.marker(
+                [30.6735, 76.7885],
+                {
+}
+            ).addTo(feature_group_9f1d7dd249cae60d82da1f34f7bde544);
+        
+    
+            var icon_8a6406a32a81ec91c95fe751c68b4e80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_39320b9f6ec5302acf0578ea4792f306 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_74712f6ccbc48bd6050fc8feda9fd3b0 = $(`<div id="html_74712f6ccbc48bd6050fc8feda9fd3b0" style="width: 100.0%; height: 100.0%;">             <b>Chandigarh International Airport</b><br>             IATA: IXC<br>             City: Chandigarh<br>             Elevation: 1012 ft             </div>`)[0];
+                popup_39320b9f6ec5302acf0578ea4792f306.setContent(html_74712f6ccbc48bd6050fc8feda9fd3b0);
+            
+        
+
+        marker_8006d7549988ec6a3a29e729911ee01e.bindPopup(popup_39320b9f6ec5302acf0578ea4792f306)
+        ;
+
+        
+    
+    
+            marker_8006d7549988ec6a3a29e729911ee01e.bindTooltip(
+                `<div>
+                     IXC — Chandigarh
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8006d7549988ec6a3a29e729911ee01e.setIcon(icon_8a6406a32a81ec91c95fe751c68b4e80);
+            
+    
+            var marker_a45366dff85689a299efbde327d92866 = L.marker(
+                [22.7218, 75.8011],
+                {
+}
+            ).addTo(feature_group_9f1d7dd249cae60d82da1f34f7bde544);
+        
+    
+            var icon_37563669d4e472de8cf007e691896129 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a83c4ece2baa53e81a71f6913fe13883 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_afe8a0a7be2f1dad44b842de4e07594d = $(`<div id="html_afe8a0a7be2f1dad44b842de4e07594d" style="width: 100.0%; height: 100.0%;">             <b>Devi Ahilyabai Holkar Airport</b><br>             IATA: IDR<br>             City: Indore<br>             Elevation: 1850 ft             </div>`)[0];
+                popup_a83c4ece2baa53e81a71f6913fe13883.setContent(html_afe8a0a7be2f1dad44b842de4e07594d);
+            
+        
+
+        marker_a45366dff85689a299efbde327d92866.bindPopup(popup_a83c4ece2baa53e81a71f6913fe13883)
+        ;
+
+        
+    
+    
+            marker_a45366dff85689a299efbde327d92866.bindTooltip(
+                `<div>
+                     IDR — Indore
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a45366dff85689a299efbde327d92866.setIcon(icon_37563669d4e472de8cf007e691896129);
+            
+    
+            feature_group_9f1d7dd249cae60d82da1f34f7bde544.addTo(map_419f9d89c31234d2b664cc4209dc09fc);
+        
+    
+            var feature_group_1bf27eb1f93d04055e082fad64faf2a5 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_c1ef1c39713493f04716fe8d0070d8a4 = L.polyline(
+                [[28.5562, 77.1], [10.152, 76.3919]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_1bf27eb1f93d04055e082fad64faf2a5);
+        
+    
+            poly_line_c1ef1c39713493f04716fe8d0070d8a4.bindTooltip(
+                `<div>
+                     Shortest: DEL → COK | 2047.79 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_072081fc3f1c3dfe6ca0779816930647 = L.polyline(
+                [[28.5562, 77.1], [20.2548, 85.8165]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_1bf27eb1f93d04055e082fad64faf2a5);
+        
+    
+            poly_line_072081fc3f1c3dfe6ca0779816930647.bindTooltip(
+                `<div>
+                     Shortest: DEL → BBI | 1276.18 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_8aecdf59a9df32611ca302d60f66f95d = L.polyline(
+                [[30.6735, 76.7885], [28.5562, 77.1], [12.99, 80.1693]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_1bf27eb1f93d04055e082fad64faf2a5);
+        
+    
+            poly_line_8aecdf59a9df32611ca302d60f66f95d.bindTooltip(
+                `<div>
+                     Shortest: IXC → DEL → MAA | 1997.15 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f988bbe31a3716aadb6f69fdfac28c53 = L.polyline(
+                [[26.8242, 75.8122], [28.5562, 77.1], [22.6547, 88.4467]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_1bf27eb1f93d04055e082fad64faf2a5);
+        
+    
+            poly_line_f988bbe31a3716aadb6f69fdfac28c53.bindTooltip(
+                `<div>
+                     Shortest: JAI → DEL → CCU | 1543.0 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_9f1d12e475496cf24d28e78facc12af8 = L.polyline(
+                [[15.3808, 73.8314], [13.1994, 77.7101], [20.2548, 85.8165]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_1bf27eb1f93d04055e082fad64faf2a5);
+        
+    
+            poly_line_9f1d12e475496cf24d28e78facc12af8.bindTooltip(
+                `<div>
+                     Shortest: GOI → BLR → BBI | 1649.12 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_1bf27eb1f93d04055e082fad64faf2a5.addTo(map_419f9d89c31234d2b664cc4209dc09fc);
+        
+    
+            var layer_control_ff9096738b5cb803e9ee697734ab0cb4_layers = {
+                base_layers : {
+                    "cartodbpositron" : tile_layer_bb567900036b2eb5300ee287d6f9a536,
+                },
+                overlays :  {
+                    "All Routes" : feature_group_668e836900383a0a3f9026dd142212f9,
+                    "Airports" : feature_group_9f1d7dd249cae60d82da1f34f7bde544,
+                    "Shortest Paths" : feature_group_1bf27eb1f93d04055e082fad64faf2a5,
+                },
+            };
+            let layer_control_ff9096738b5cb803e9ee697734ab0cb4 = L.control.layers(
+                layer_control_ff9096738b5cb803e9ee697734ab0cb4_layers.base_layers,
+                layer_control_ff9096738b5cb803e9ee697734ab0cb4_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_419f9d89c31234d2b664cc4209dc09fc);
+
+        
+    
+            var measure_control_c0c551c57e94abd12e3c7605b4be0d45 = new L.Control.Measure(
+                {
+  "position": "topright",
+  "primaryLengthUnit": "meters",
+  "secondaryLengthUnit": "miles",
+  "primaryAreaUnit": "sqmeters",
+  "secondaryAreaUnit": "acres",
+});
+            map_419f9d89c31234d2b664cc4209dc09fc.addControl(measure_control_c0c551c57e94abd12e3c7605b4be0d45);
+
+            // Workaround for using this plugin with Leaflet>=1.8.0
+            // https://github.com/ljagis/leaflet-measure/issues/171
+            L.Control.Measure.include({
+                _setCaptureMarkerIcon: function () {
+                    // disable autopan
+                    this._captureMarker.options.autoPanOnFocus = false;
+                    // default function
+                    this._captureMarker.setIcon(
+                        L.divIcon({
+                            iconSize: this._map.getSize().multiplyBy(2)
+                        })
+                    );
+                },
+            });
+
+        
+    
+            var tile_layer_34f289209d702995f79f845218aaacbe = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detect_retina": false, "max_native_zoom": 19, "max_zoom": 19, "min_zoom": 0, "no_wrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+            var mini_map_251416cb9d8b7e6af7b8de79e8915800 = new L.Control.MiniMap(
+                tile_layer_34f289209d702995f79f845218aaacbe,
+                {
+  "position": "bottomright",
+  "width": 150,
+  "height": 150,
+  "collapsedWidth": 25,
+  "collapsedHeight": 25,
+  "zoomLevelOffset": -5,
+  "centerFixed": false,
+  "zoomAnimation": false,
+  "toggleDisplay": false,
+  "autoToggleDisplay": false,
+  "minimized": false,
+}
+            );
+            map_419f9d89c31234d2b664cc4209dc09fc.addControl(mini_map_251416cb9d8b7e6af7b8de79e8915800);
+        
+</script>
+</html>

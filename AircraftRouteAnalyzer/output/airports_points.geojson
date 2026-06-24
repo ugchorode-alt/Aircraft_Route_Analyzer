@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"name": "airports_points",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "iata_code": "DEL", "airport_name": "Indira Gandhi International Airport", "city": "New Delhi", "state": "Delhi", "latitude": 28.5562, "longitude": 77.1, "elevation_ft": 777 }, "geometry": { "type": "Point", "coordinates": [ 77.1, 28.5562 ] } },
+{ "type": "Feature", "properties": { "iata_code": "BOM", "airport_name": "Chhatrapati Shivaji Maharaj International Airport", "city": "Mumbai", "state": "Maharashtra", "latitude": 19.0887, "longitude": 72.8679, "elevation_ft": 39 }, "geometry": { "type": "Point", "coordinates": [ 72.8679, 19.0887 ] } },
+{ "type": "Feature", "properties": { "iata_code": "BLR", "airport_name": "Kempegowda International Airport", "city": "Bengaluru", "state": "Karnataka", "latitude": 13.1994, "longitude": 77.7101, "elevation_ft": 3002 }, "geometry": { "type": "Point", "coordinates": [ 77.7101, 13.1994 ] } },
+{ "type": "Feature", "properties": { "iata_code": "HYD", "airport_name": "Rajiv Gandhi International Airport", "city": "Hyderabad", "state": "Telangana", "latitude": 17.23, "longitude": 78.4319, "elevation_ft": 2024 }, "geometry": { "type": "Point", "coordinates": [ 78.4319, 17.23 ] } },
+{ "type": "Feature", "properties": { "iata_code": "MAA", "airport_name": "Chennai International Airport", "city": "Chennai", "state": "Tamil Nadu", "latitude": 12.99, "longitude": 80.1693, "elevation_ft": 52 }, "geometry": { "type": "Point", "coordinates": [ 80.1693, 12.99 ] } },
+{ "type": "Feature", "properties": { "iata_code": "CCU", "airport_name": "Netaji Subhas Chandra Bose International Airport", "city": "Kolkata", "state": "West Bengal", "latitude": 22.6547, "longitude": 88.4467, "elevation_ft": 16 }, "geometry": { "type": "Point", "coordinates": [ 88.4467, 22.6547 ] } },
+{ "type": "Feature", "properties": { "iata_code": "PNQ", "airport_name": "Pune International Airport", "city": "Pune", "state": "Maharashtra", "latitude": 18.5822, "longitude": 73.9197, "elevation_ft": 1942 }, "geometry": { "type": "Point", "coordinates": [ 73.9197, 18.5822 ] } },
+{ "type": "Feature", "properties": { "iata_code": "AMD", "airport_name": "Sardar Vallabhbhai Patel International Airport", "city": "Ahmedabad", "state": "Gujarat", "latitude": 23.0772, "longitude": 72.6347, "elevation_ft": 189 }, "geometry": { "type": "Point", "coordinates": [ 72.6347, 23.0772 ] } },
+{ "type": "Feature", "properties": { "iata_code": "JAI", "airport_name": "Jaipur International Airport", "city": "Jaipur", "state": "Rajasthan", "latitude": 26.8242, "longitude": 75.8122, "elevation_ft": 1263 }, "geometry": { "type": "Point", "coordinates": [ 75.8122, 26.8242 ] } },
+{ "type": "Feature", "properties": { "iata_code": "LKO", "airport_name": "Chaudhary Charan Singh International Airport", "city": "Lucknow", "state": "Uttar Pradesh", "latitude": 26.7606, "longitude": 80.8893, "elevation_ft": 410 }, "geometry": { "type": "Point", "coordinates": [ 80.8893, 26.7606 ] } },
+{ "type": "Feature", "properties": { "iata_code": "GOI", "airport_name": "Dabolim Airport (Goa International Airport)", "city": "Goa", "state": "Goa", "latitude": 15.3808, "longitude": 73.8314, "elevation_ft": 150 }, "geometry": { "type": "Point", "coordinates": [ 73.8314, 15.3808 ] } },
+{ "type": "Feature", "properties": { "iata_code": "COK", "airport_name": "Cochin International Airport", "city": "Kochi", "state": "Kerala", "latitude": 10.152, "longitude": 76.3919, "elevation_ft": 26 }, "geometry": { "type": "Point", "coordinates": [ 76.3919, 10.152 ] } },
+{ "type": "Feature", "properties": { "iata_code": "BBI", "airport_name": "Biju Patnaik International Airport", "city": "Bhubaneswar", "state": "Odisha", "latitude": 20.2548, "longitude": 85.8165, "elevation_ft": 16 }, "geometry": { "type": "Point", "coordinates": [ 85.8165, 20.2548 ] } },
+{ "type": "Feature", "properties": { "iata_code": "IXC", "airport_name": "Chandigarh International Airport", "city": "Chandigarh", "state": "Punjab/Haryana", "latitude": 30.6735, "longitude": 76.7885, "elevation_ft": 1012 }, "geometry": { "type": "Point", "coordinates": [ 76.7885, 30.6735 ] } },
+{ "type": "Feature", "properties": { "iata_code": "IDR", "airport_name": "Devi Ahilyabai Holkar Airport", "city": "Indore", "state": "Madhya Pradesh", "latitude": 22.7218, "longitude": 75.8011, "elevation_ft": 1850 }, "geometry": { "type": "Point", "coordinates": [ 75.8011, 22.7218 ] } }
+]
+}

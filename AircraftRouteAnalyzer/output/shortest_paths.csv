@@ -1,0 +1,6 @@
+source,target,source_city,target_city,dijkstra_path,astar_path,distance_km,stops
+DEL,COK,New Delhi,Kochi,DEL → COK,DEL → COK,2047.79,0
+DEL,BBI,New Delhi,Bhubaneswar,DEL → BBI,DEL → BBI,1276.18,0
+IXC,MAA,Chandigarh,Chennai,IXC → DEL → MAA,IXC → DEL → MAA,1997.15,1
+JAI,CCU,Jaipur,Kolkata,JAI → DEL → CCU,JAI → DEL → CCU,1543.0,1
+GOI,BBI,Goa,Bhubaneswar,GOI → BLR → BBI,GOI → BLR → BBI,1649.12,1

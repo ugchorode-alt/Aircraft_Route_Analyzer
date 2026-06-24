@@ -1,0 +1,55 @@
+origin_iata,destination_iata,origin_city,destination_city,flights_per_week,approx_daily_flights,data_source,notes
+DEL,BOM,Delhi,Mumbai,438,63,Flightradar24 Jun 2026,India's busiest domestic route
+DEL,BLR,Delhi,Bengaluru,313,45,Flightradar24 Jun 2026,Second busiest from DEL
+DEL,HYD,Delhi,Hyderabad,199,28,Flightradar24 Jun 2026,
+DEL,CCU,Delhi,Kolkata,182,26,Flightradar24 Jun 2026,
+DEL,PNQ,Delhi,Pune,169,24,Flightradar24 Jun 2026,
+DEL,AMD,Delhi,Ahmedabad,144,21,Flightradar24 Jun 2026,
+DEL,MAA,Delhi,Chennai,128,18,Flightradar24 Jun 2026,
+DEL,LKO,Delhi,Lucknow,107,15,Flightradar24 Jun 2026,
+DEL,GOI,Delhi,Goa,70,10,Estimated from IndiGo/Air India schedules,Seasonal variation
+DEL,COK,Delhi,Kochi,65,9,Estimated from IndiGo/Air India schedules,
+DEL,BBI,Delhi,Bhubaneswar,42,6,Estimated from IndiGo/Air India schedules,
+DEL,IXC,Delhi,Chandigarh,35,5,Estimated from IndiGo/Air India schedules,Short sector ~50 min
+DEL,JAI,Delhi,Jaipur,56,8,Estimated from IndiGo/Air India schedules,Short sector ~45 min
+DEL,IDR,Delhi,Indore,49,7,Estimated from IndiGo/Air India schedules,
+BOM,BLR,Mumbai,Bengaluru,196,28,Flightradar24 Jun 2026,Second busiest from BOM
+BOM,MAA,Mumbai,Chennai,111,16,Flightradar24 Jun 2026,
+BOM,AMD,Mumbai,Ahmedabad,106,15,Flightradar24 Jun 2026,
+BOM,HYD,Mumbai,Hyderabad,102,15,Flightradar24 Jun 2026,
+BOM,CCU,Mumbai,Kolkata,93,13,Flightradar24 Jun 2026,
+BOM,GOI,Mumbai,Goa,69,10,Flightradar24 Jun 2026,Popular leisure route
+BOM,LKO,Mumbai,Lucknow,51,7,Flightradar24 Jun 2026,
+BOM,PNQ,Mumbai,Pune,35,5,Estimated,Short sector ~30 min
+BOM,COK,Mumbai,Kochi,42,6,Estimated from IndiGo/Air India schedules,
+BOM,BBI,Mumbai,Bhubaneswar,21,3,Estimated from IndiGo/Air India schedules,
+BOM,IXC,Mumbai,Chandigarh,21,3,Estimated from IndiGo/Air India schedules,
+BOM,JAI,Mumbai,Jaipur,28,4,Estimated from IndiGo/Air India schedules,
+BOM,IDR,Mumbai,Indore,21,3,Estimated from IndiGo/Air India schedules,
+BLR,HYD,Bengaluru,Hyderabad,77,11,IndiGo published schedule,Regional IT corridor route
+BLR,MAA,Bengaluru,Chennai,56,8,Estimated from IndiGo/Air India schedules,
+BLR,CCU,Bengaluru,Kolkata,49,7,Estimated from IndiGo/Air India schedules,
+BLR,COK,Bengaluru,Kochi,42,6,Estimated from IndiGo/Air India schedules,
+BLR,PNQ,Bengaluru,Pune,35,5,Estimated from IndiGo/Air India schedules,
+BLR,AMD,Bengaluru,Ahmedabad,28,4,Estimated from IndiGo/Air India schedules,
+BLR,GOI,Bengaluru,Goa,28,4,Estimated from IndiGo/Air India schedules,
+BLR,JAI,Bengaluru,Jaipur,14,2,Estimated from IndiGo/Air India schedules,
+BLR,LKO,Bengaluru,Lucknow,14,2,Estimated from IndiGo/Air India schedules,
+BLR,BBI,Bengaluru,Bhubaneswar,14,2,Estimated from IndiGo/Air India schedules,
+BLR,IXC,Bengaluru,Chandigarh,7,1,Estimated from IndiGo/Air India schedules,Less frequent
+BLR,IDR,Bengaluru,Indore,7,1,Estimated from IndiGo/Air India schedules,Less frequent
+HYD,MAA,Hyderabad,Chennai,42,6,Estimated from IndiGo/Air India schedules,
+HYD,CCU,Hyderabad,Kolkata,28,4,Estimated from IndiGo/Air India schedules,
+HYD,COK,Hyderabad,Kochi,28,4,Estimated from IndiGo/Air India schedules,
+HYD,PNQ,Hyderabad,Pune,21,3,Estimated from IndiGo/Air India schedules,
+HYD,GOI,Hyderabad,Goa,21,3,Estimated from IndiGo/Air India schedules,
+HYD,AMD,Hyderabad,Ahmedabad,21,3,Estimated from IndiGo/Air India schedules,
+MAA,CCU,Chennai,Kolkata,35,5,Estimated from IndiGo/Air India schedules,
+MAA,COK,Chennai,Kochi,28,4,Estimated from IndiGo/Air India schedules,
+MAA,PNQ,Chennai,Pune,14,2,Estimated from IndiGo/Air India schedules,
+CCU,BBI,Kolkata,Bhubaneswar,28,4,Estimated from IndiGo/Air India schedules,Short sector
+PNQ,GOI,Pune,Goa,21,3,Estimated from IndiGo/Air India schedules,Leisure route
+AMD,JAI,Ahmedabad,Jaipur,14,2,Estimated from IndiGo/Air India schedules,Short sector
+JAI,LKO,Jaipur,Lucknow,14,2,Estimated from IndiGo/Air India schedules,
+IXC,LKO,Chandigarh,Lucknow,7,1,Estimated from IndiGo/Air India schedules,
+IDR,AMD,Indore,Ahmedabad,14,2,Estimated from IndiGo/Air India schedules,
